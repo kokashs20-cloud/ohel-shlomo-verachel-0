@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>עמותה כולל אוהל שלמה ורחל</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      direction: rtl;
+      background: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 20px;
+    }
+    h1 {
+      margin: 0;
+    }
+    .goals {
+      margin: 30px auto;
+      max-width: 600px;
+      text-align: right;
+    }
+    .goals a {
+      display: block;
+      background: #ffffff;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #004080;
+      font-weight: bold;
+      border: 1px solid #ddd;
+      transition: 0.3s;
+    }
+    .goals a:hover {
+      background: #e6f0ff;
+    }
+    .donate-btn {
+      display: inline-block;
+      margin: 30px 0;
+      padding: 15px 25px;
+      background: #ff6600;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .donate-btn:hover {
+      background: #cc5200;
+    }
+    .gallery {
+      margin: 30px auto;
+      max-width: 800px;
+    }
+    .gallery img {
+      width: 200px;
+      margin: 10px;
+      border-radius: 10px;
+      border: 2px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>עמותה כולל אוהל שלמה ורחל</h1>
+  </header>
+
+  <div class="goals">
+    <a href="avrechim.html">כולל אברכים</a>
+    <a href="synagogue.html">בניית בית כנסת</a>
+    <a href="families.html">תמיכה במשפחות נזקקות</a>
+  </div>
+
+  <a class="donate-btn" href="YOUR-DONATION-LINK-HERE" target="_blank">
+    תרום עכשיו
+  </a>
+
+  <div class="gallery">
+    <h2>גלריית תמונות</h2>
+    <!-- כאן תוכל להעלות תמונות -->
+    <img src="image1.jpg" alt="תמונה 1">
+    <img src="image2.jpg" alt="תמונה 2">
+    <img src="image3.jpg" alt="תמונה 3">
+  </div>
+
+</body>
+</html>
